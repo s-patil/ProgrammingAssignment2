@@ -1,7 +1,8 @@
 ## makeCacheMatrix makes a vector of four functions that can set a matrix, get a matrix,
 ## set inverse of the matrix and get inverse of the matrix. CacheSolve will calculate the inverse of a matrix
 
-## This function will return a list of four functions
+
+## setMatrix should be used to set the value of matrix for which inverse has to be calculated
 
 makeCacheMatrix <- function(x = matrix()) {
   
